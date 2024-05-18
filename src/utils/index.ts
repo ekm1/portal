@@ -1,0 +1,1 @@
+export const getAvatarUrl = (userId?: number) => userId ? `https://i.pravatar.cc/150?img=${userId}` : undefined
